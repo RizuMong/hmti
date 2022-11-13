@@ -14,7 +14,6 @@
   color: #ffffff;
   font-family: var(--second-font);
   font-weight: 700;
-  margin-right : 260px;
 }
 
 .bg-nav {
@@ -37,3 +36,21 @@
   font-size : 16px;
   font-weight:600;
 }
+
+@media (min-width: 992px) { 
+  .navbar-nav {
+    margin-left: 260px;
+  }
+ }
+
+@media (min-width: 1200px) { 
+  .navbar-nav {
+    margin-left: 260px;
+  }
+ }
+
+@media (min-width: 1400px) { 
+  .navbar-nav {
+    margin-left: 260px;
+  }
+ }
