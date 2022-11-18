@@ -1,56 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
 
 :root {
-  --main-color: #FFD900;
+  --main-color: #ffd900;
   --second-color: #111629;
+  --text-color: #1e2748;
 
-  --main-font: 'Montserrat', sans-serif;
-  --second-font: 'Playfair Display', serif;
+  --main-font: "Montserrat", sans-serif;
+  --second-font: "Playfair Display", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 576px) {
+  .heading-footer {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .heading-footer {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-nav {
+    margin-left: 260px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .navbar-nav {
+    margin-left: 260px;
+  }
 }
 
 .text-logo {
-  font-size : 30px;
+  font-size: 30px;
   color: #ffffff;
   font-family: var(--second-font);
   font-weight: 700;
 }
 
 .bg-nav {
-  background-color:var(--second-color);
+  background-color: var(--second-color);
 }
 
-.text_nav{
+.text_nav {
   font-family: var(--main-font);
-  font-size : 16px;
+  font-size: 16px;
 }
-.btn_kontak{
-  background-color:var(--main-color);
-  border:none;
-  color:var(--second-font);
-  border-radius:100px;
+.btn_kontak {
+  background-color: var(--main-color);
+  border: none;
+  color: var(--second-font);
+  border-radius: 100px;
   padding: 10px 26px 10px 26px;
 }
-.text_contact{
+.text_contact {
   font-family: var(--main-font);
-  font-size : 16px;
-  font-weight:600;
+  font-size: 16px;
+  font-weight: 600;
 }
 
-@media (min-width: 992px) { 
-  .navbar-nav {
-    margin-left: 260px;
-  }
- }
+/* Footer */
+.bg-yellow {
+  background-color: var(--main-color);
+}
 
-@media (min-width: 1200px) { 
-  .navbar-nav {
-    margin-left: 260px;
-  }
- }
+.header-footer {
+  color: var(--text-color);
+  font-family: var(--second-font);
+  font-size: 30px;
+  font-weight: 800;
+}
 
-@media (min-width: 1400px) { 
-  .navbar-nav {
-    margin-left: 260px;
-  }
- }
+.text-footer {
+  color: var(--text-color);
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.heading-footer {
+  color: var(--text-color);
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.link-footer {
+  color: var(--text-color);
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ml-4 {
+  margin-right: 18px;
+}
