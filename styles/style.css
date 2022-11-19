@@ -24,23 +24,35 @@ a {
   .heading-footer {
     padding-top: 10px;
   }
+  .carousel-caption {
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width: 992px) {
   .navbar-nav {
     margin-left: 80px;
   }
+  .carousel-caption {
+    margin-bottom: 80px;
+  }
 }
 
 @media (min-width: 1200px) {
   .navbar-nav {
-    margin-left: 260px;
+    margin-left: 160px;
+  }
+  .carousel-caption {
+    margin-bottom: 100px;
   }
 }
 
 @media (min-width: 1400px) {
   .navbar-nav {
     margin-left: 260px;
+  }
+  .carousel-caption {
+    margin-bottom: 120px;
   }
 }
 
@@ -70,6 +82,36 @@ a {
   font-family: var(--main-font);
   font-size: 16px;
   font-weight: 600;
+}
+
+/* Carausel */
+.carousel-header {
+  color: #ffffff;
+  font-family: var(--main-font);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.carousel-text  {
+  color: #ffffff;
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn-hero {
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 100px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 36px;
+}
+
+.text-hero {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 6px;
+  
 }
 
 /* Footer */
