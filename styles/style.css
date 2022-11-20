@@ -250,7 +250,8 @@ footer {
 /* Footer */
 .bg-yellow {
   background-color: var(--main-color);
-}
+} 
+
 
 .header-footer {
   color: var(--text-color);
