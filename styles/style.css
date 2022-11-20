@@ -30,6 +30,10 @@ a {
   }
 }
 
+/* footer {
+  bottom: 0;
+} */
+
 @media (min-width: 576px) {
   .heading-footer {
     padding-top: 10px;
