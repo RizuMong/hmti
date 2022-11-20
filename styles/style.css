@@ -68,7 +68,7 @@ a {
 
 @media screen and (max-width: 992px){
   .card .container .row .card-fitur {
-    overflow: hidden;
+    height: auto;
   }
   .card .container .row .card-fitur p {
     font-size: 14px;
