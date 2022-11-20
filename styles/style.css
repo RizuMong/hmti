@@ -159,6 +159,7 @@ a {
 
 /* card */
 .card {
+  /* height: 94vh; */
   font-family: var(--main-font);
   background-color: var(--second-color);
   padding: 80px 0;
@@ -170,8 +171,11 @@ a {
 }
 
 .card-fitur {
+  /* justify-content: center;
+  position: absolute;
+  bottom: 48%; */
   background: var(--text-color);;
-  width: 100%;
+  width: 360px;
   height: 338px;
   border-radius: 10px;
   text-align: start;
