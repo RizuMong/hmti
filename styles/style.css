@@ -17,10 +17,28 @@ body {
 a {
   text-decoration: none;
 }
+@media screen and (max-width: 375px) {
+  .card .container .row .card-fitur h3 {
+    font-size: 16px;
+  }
+  .card .container .row .card-fitur p {
+    font-size: 14px;
+  }
+  .card .container .row .card-image {
+    width: 40px;
+    height: 38px;
+  }
+}
 
 @media (min-width: 576px) {
   .heading-footer {
     padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card-fitur {
+    margin-bottom: 30px;
   }
 }
 
@@ -33,12 +51,30 @@ a {
   }
 }
 
+@media screen and (max-width: 768px){
+  .card-fitur {
+    margin-bottom: 40px;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-nav {
     margin-left: 80px;
   }
   .carousel-caption {
     margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .card .container .row .card-fitur {
+    overflow: hidden;
+  }
+  .card .container .row .card-fitur p {
+    font-size: 14px;
+  }
+  .card .container .row .card-fitur h3 {
+    font-size: 18px;
   }
 }
 
@@ -75,6 +111,7 @@ a {
   font-family: var(--main-font);
   font-size: 16px;
 }
+
 .btn_kontak {
   background-color: var(--main-color);
   border: none;
@@ -120,6 +157,7 @@ a {
 
 /* card */
 .card {
+  font-family: var(--main-font);
   background-color: var(--second-color);
   padding: 80px 0;
 }
@@ -143,44 +181,45 @@ a {
 
 .card-fitur h3 {
   color: #fff;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 30px;
   transition: all .2s ease-in;
+
 }
 
 .card-fitur p {
   color: #fff;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 21px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   transition: all .3s ease-in;
 }
 
 .card-image {
-  background: var(--pr-color);
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  background: #fff;
+  border-radius: 5px;
+  width: 48px;
+  height: 36px;
+}
+
+/* card hover */
+.card-fitur:hover {
+  background: var(--main-color);
+  transform:translateY(-10px);
   transition: all .2s ease-in;
 }
 
-/* .card-fitur:hover {
-  background-color: var(--pr-color);
+.card-fitur:hover h3 {
+  color: var(--second-color);
   transition: all .2s ease-in;
 }
-.card-fitur:hover h3 {
-  color: var(--pr-bg);
-  transition: all .3s ease-in;
-}
+
 .card-fitur:hover p {
-  color: var(--pr-bg);
-  transition: all .4s ease-in;
+  color: var(--second-color);
+  transition: all .2s ease-in;
 }
-.card-fitur:hover .card-image {
-  transition: all .3s ease-in;
-  background-color: var(--pr-bg);
-} */
+
 
 /* Footer */
 .bg-yellow {
