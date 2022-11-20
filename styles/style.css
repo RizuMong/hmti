@@ -110,13 +110,13 @@ footer {
 }
 
 /* todo */
-.nav-color {
+/* .nav-color {
   background-color: var(--second-color);
   transition: all ease-in-out 0.3s;
 }
 .bg-transparent {
   transition: all ease-in 0.3s;
-}
+} */
 /* todo */
 
 .bg-nav {
@@ -143,9 +143,9 @@ footer {
 
 /* Carausel */
 /* todo */
-.carousel-item .img-carousel {
-  height: 100vh;
-}
+/* .carousel-item .img-carousel {
+  height: auto;
+} */
 /* todo */
 
 .carousel-header {
